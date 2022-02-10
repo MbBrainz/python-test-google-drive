@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   uploader:
-    image: mbbrains/drive-uploader
+    image: myimage
     expose:
       - port: 80
         as: 80
