@@ -1,0 +1,6 @@
+"""
+This file has the purpose of setting all configuration information
+"""
+
+API_KEY = "ya29.A0ARrdaM_BSc9yvZWo2DZUcdXKRmUcp9d_f0lLlDuMt5CiyP7XR4exo5bpXPP239tJ4dU8CG6eBKWvSnsfMXoBefzMLTu_GM4N7n5HzGmxFNGrEpvdmng3qWu204leyo1b2WMo1m2OnPhq9LfNZ4MstGvDy57u"
+FOLDER_ID = "1VsPgpgOpzlxNdn8JIQ0KjsfKFGPBa2sF"
