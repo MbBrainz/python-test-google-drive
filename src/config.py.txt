@@ -1,6 +1,0 @@
-"""
-This file has the purpose of setting all configuration information
-"""
-# you can generate these by following this tutorial https://codingshiksha.com/python/how-to-upload-files-to-google-drive-using-python-3-using-google-drive-api-v3-full-project/
-API_KEY = "YOUR_API_KEY"
-FOLDER_ID = "YOUR_FOLDER_ID"
