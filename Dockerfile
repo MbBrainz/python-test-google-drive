@@ -21,5 +21,6 @@ ADD src .
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
 
-RUN pip install -r requirements.txt
-CMD [ "python", "./app.py"]
+RUN pip install -r drive/requirements.txt
+RUN pip install -r simulation/requirements.txt
+CMD [ "python", "./main.py"]
