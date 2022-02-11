@@ -9,7 +9,7 @@ def upload_file(filename, dir):
     gauth.LoadCredentialsFile('.config/credentials.json')
     drive = GoogleDrive(gauth)
 
-    folder = '1M4c518Uz5ZN106f6RVJqJ98e0sREFACP'
+    folder = '1VsPgpgOpzlxNdn8JIQ0KjsfKFGPBa2sF'
 
     file1 = drive.CreateFile({'parents': [{'id': folder}], 'title':f'{filename}'})
 
