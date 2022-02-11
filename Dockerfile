@@ -14,6 +14,7 @@ WORKDIR /usr/app/src
 #to COPY the remote file at working directory in container
 # COPY src/ app.py ./
 ADD src .
+
 # Now the structure looks like this '/usr/app/src/test.py'
 
 

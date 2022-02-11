@@ -16,7 +16,7 @@ The manifest is the one used for the deployment in Akashlytics -->
 ### setup .config/
 create .config folder in main directory
 download client_secrets_00SOMECODE00.json from console.cloud.google.com
-rename it to client_secrets.json and put it in `.config/`
+rename it to client_secrets.json and put it in `src/.config/`
 create a settings.yaml file in the following format and fill in the credentials, which are found in client_secrets.json:
 
 ```

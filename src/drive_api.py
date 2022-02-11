@@ -17,4 +17,4 @@ def upload_file(filename, dir):
     file1.SetContentString('Hello, world!')
     file1.Upload()
 
-upload_file('test.txt', 'src/data')
+# upload_file('test.txt', 'src/data')

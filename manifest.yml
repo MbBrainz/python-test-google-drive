@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   uploader:
-    image: myimage
+    image: mbbrains/drive-uploader:0.0.2
     expose:
       - port: 80
         as: 80
@@ -15,11 +15,11 @@ profiles:
     uploader:
       resources:
         cpu:
-          units: 4
+          units: 1
         memory:
-          size: 2048Mi
+          size: 512Mi
         storage:
-          size: 2048MI
+          size: 512Mi
   placement:
     dcloud:
       attributes:

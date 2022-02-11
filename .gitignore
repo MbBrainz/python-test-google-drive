@@ -1,4 +1,5 @@
 config.py
 Pipfile
 *.code-workspace
-.config
+config
+src/.config
