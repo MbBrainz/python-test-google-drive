@@ -22,5 +22,13 @@ ADD src .
 #contained by your image, along with any arguments.
 
 RUN pip install -r drive/requirements.txt
-RUN pip install -r simulation/requirements.txt
+RUN pip install -r simulation/ABM-project-group8/requirements.txt
+# run specific simulation from within package
+# RUN cd simulation/ABM-project-group8/ && python -m polarization.experiments.experiments
+
+ADD start.sh /
+RUN chmod +x /start.sh
+
+CMD ["/start.sh"]
+# run upload files
 CMD [ "python", "./main.py"]
